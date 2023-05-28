@@ -15,6 +15,8 @@ class  Classcomponenet extends Component
         return(
             <div>
                 <h1>parent{this.state.count}</h1>
+                <h1>hiii kamal</h1>
+                <h1>hiii</h1>
                <ChildClass child={this.state.count} child1={this.state.count1} ></ChildClass>
             </div>
         )
