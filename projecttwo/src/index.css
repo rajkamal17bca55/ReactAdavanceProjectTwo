@@ -1,0 +1,530 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.signup-cont {
+  height: auto;
+  width: 30%;
+  background-color: rgb(194, 194, 231);
+  margin: auto;
+  border: solid black 1px;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.signup-cont input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 20px;
+  width: 250px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+  color: black;
+
+}
+
+.signup-cont input:focus {
+
+
+  border: 1px black;
+  outline: none;
+
+}
+
+.signup-cont input[type="submit"] {
+
+  height: 40px;
+  width: auto;
+  padding-left: 15px;
+  border: solid 1px black;
+  box-shadow: 0px 0px 3px black;
+
+
+
+}
+
+.signup-cont button {
+  height: 40px;
+  width: 100px;
+  background-color: yellow;
+  border-radius: 4px;
+  margin-left: 20px;
+
+}
+
+.loginpage {
+  background-color: rgb(223, 217, 217);
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.loginpage input {
+  margin-bottom: 30px;
+  height: 18px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 0px 2px black;
+}
+
+.loginpage input[type="submit"] {
+  background-color: rgb(26, 221, 26);
+  height: 30px;
+  width: 70px;
+  display: block;
+  margin: auto;
+  border: solid 1px black;
+  align-items: center;
+}
+
+.profile h1 {
+  color: white;
+  margin-right: 60px;
+  text-decoration: none;
+}
+
+.profile h1:hover {
+  color: aqua;
+}
+
+.profile a {
+  text-decoration: none;
+}
+
+.profile {
+  position: relative
+}
+
+.profile i {
+  position: absolute;
+  top: 26px;
+}
+
+.loading {
+  height: 100px;
+  width: 100px;
+  border: 10px solid black;
+  border-top: white solid 10px;
+  border-bottom: white solid 10px;
+  border-radius: 50%;
+  animation: load 2s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+
+
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+.userprofile {
+  
+ 
+  height: auto;
+  width: 70vw;
+  margin-left: 200px;
+  box-shadow: 0px 0px 5px black;
+   
+}
+.userprofile label
+{
+  margin-left: 120px;
+}
+.coverpic img
+{
+  width: 70vw;
+  height: 250px;
+  border: solid 0.5px black;
+  
+
+}
+.prfimg img
+{
+  border-radius: 50%;
+  position: absolute;
+  top: 280px;
+  left: 200px;
+  border: solid black 2px;
+}
+
+.userprofile button {
+  height: 40px;
+  width: 80px;
+  background-color: burlywood;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px white;
+  border: none;
+  margin-right: 10px;
+}
+#logbt
+{
+  margin-left: 600px;
+  margin-right: 100px;
+}
+
+.userprofile button:hover {
+  transform: scale(1.1);
+  border: solid 2px black;
+  background-color: white;
+  margin-right: 20px;
+  font-weight: bolder;
+}
+
+#signbyyton {
+  text-decoration: none;
+
+
+}
+
+#signbyyton button {
+  background-color: green;
+}
+
+
+
+*body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbars {
+  background-color: blue;
+  height: 65px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.Bookflight {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbars button {
+  height: 30px;
+  width: 70px;
+  margin-right: 15px;
+  background-color: darkslategrey;
+  border: solid 1px black;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 10px;
+  font-weight: bolder;
+
+}
+
+.navbars button:hover {
+  background-color: antiquewhite;
+  transform: scale(1.2);
+}
+.logos h1,.profiles a
+{
+  color: black;
+  text-decoration: none;
+  text-shadow: 0px 3px 0px white;
+}
+
+.logos h1:hover,
+.profiles h1:hover {
+  transform: scale(1.2);
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.businput {
+  background-color: antiquewhite;
+  height: auto;
+  width: 300px;
+  border: 1px black solid;
+  box-shadow: 0px 0px 5px black;
+  margin-left: 40%;
+  margin-top: 30px;
+  border-radius: 5px;
+
+}
+
+.businput input {
+  display: block;
+  margin-bottom: 15px;
+  height: 25px;
+  width: 200px;
+  margin-left: 50px;
+  /* border-radius: 4px; */
+  border: none;
+  box-shadow: 0px 0px 3px black;
+  padding: 3px;
+}
+
+.businput input :first-child,
+.businput input :nth-child(2) {
+  border-bottom: none;
+}
+
+.busbooking table {
+  margin-left: 30%;
+}
+
+.starting {
+
+  background-color: white;
+  height: auto;
+  width: 202px;
+  position: relative;
+  left: 50px;
+  bottom: 17px;
+  border-radius: 4px;
+  display: none;
+  text-align: left;
+  border: solid 2px black;
+
+}
+
+.starting span {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.businput input:focus {
+  border: none;
+}
+
+.ending {
+  background-color: white;
+  height: auto;
+  width: 200px;
+  position: relative;
+  left: 52px;
+  bottom: 17px;
+  border-radius: 4px;
+  display: none;
+  border: solid 2px black;
+  text-align: left;
+}
+
+.ending span {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.ending span:hover,
+.starting span:hover {
+
+  font-weight: bolder;
+  position: relative;
+  left: 20px;
+}
+
+.businput input:focus+.ending {
+  display: block;
+}
+
+.businput input:focus+.starting {
+  display: block;
+}
+
+#busdetail thead {
+
+  background-color: red;
+  color: black;
+}
+
+#busdetail tbody td button {
+  background-color: red;
+}
+
+.bookpage
+{
+  background-color: white;
+  border: solid 1px black;
+  height: 450px;
+  width: 500px;
+  margin: 25px;
+  border-radius: 5px;
+ 
+}
+.booklabel
+{
+  color: red;
+  font-weight: bolder;
+}
+#popcomponent
+{
+  position: relative;
+}
+#closee
+{
+  position: absolute;
+  left: 280px;
+  bottom: 350px;
+  background-color: transparent;
+  border: none;
+  transform: scale(2);
+}
+#cnbook
+{
+  background-color: red;
+}
+#cnnbook
+{
+  background-color: red;
+}
+#pm
+{
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.bus
+{
+  background-image: url("https://assets.volvo.com/is/image/VolvoInformationTechnologyAB/blue-bus?qlt=82&wid=1024&ts=1660212095501&dpr=off&fit=constrain");
+ height: 100vh;
+ width: 50vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flighs
+{
+  background-image: url("https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/02/01135456/Untitled-design.jpg?tr=w-1200,h-900");
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+   top: 65px;
+   left: 50.5%;
+  
+
+}
+.bus button
+{
+  background-color: skyblue;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 4px;
+  position: absolute;
+  top: 130px;
+  left: 40px;
+}
+.bus button:hover
+{
+  background-color: antiquewhite;
+}
+.flighs button
+{
+  background-color: skyblue;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 4px;
+  position: relative;
+  top:70px;
+  right: 130px;
+}
+.flighs button:hover
+{
+  background-color: antiquewhite;
+}
+.prf
+{
+  display: flex;
+}
+.active_popcomponent
+{
+  width: 80%;
+  height: 85%;
+  background-color: rgb(248, 245, 241);
+  padding: 25px;
+  position: relative;
+  display: flex;
+  position: relative;
+  top: 80px;
+  
+ 
+}
+.active_popcomponent h2
+{
+  text-align: center;
+}
+.clsbt
+{
+  position: absolute;
+  left: 90%;
+  top: 50px;
+
+}
+.active_book
+{
+  height: 250px;
+  width: 250px;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgb(46, 45, 45);
+}
+.active_page
+{
+ height: 70vh;
+  width: 100%;
+  
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 75px;
+  row-gap: 25px;
+  padding: 10px;
+  overflow: auto;
+  
+
+}
+#gender
+{
+  height: 200px ;
+  width: 220px;
+  box-sizing: border-box;
+  border: 1px black solid;
+  margin-bottom: 10px;
+  
+}
+#gender label
+{
+  position: relative;
+ 
+  top: 25px;
+  left: 50px;
+ 
+
+}
+
+
